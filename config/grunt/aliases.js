@@ -31,7 +31,7 @@ module.exports = function() {
 			'build:dependencies:css',
 			'newer:sass',
 			'newer:usebanner',
-			'newer:autoprefixer',
+			'newer:postcss',
 			'newer:wpcss',
 			'newer:cssjanus',
 			'newer:cssmin',
