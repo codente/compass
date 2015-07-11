@@ -1,5 +1,9 @@
 # Changelog for Compass
 
+## 2.0.2
+
+Updated grunt config to use PostCSS.
+
 ## 2.0.1
 
 Updated to the latest version of Themicons and fixed generated Sass variable names.
