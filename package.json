@@ -1,7 +1,7 @@
 {
   "name": "compass",
   "capitalname": "Compass",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "copyright": "2015",
   "license": "GPL-2.0+",
   "private": true,
@@ -44,7 +44,7 @@
     "url": "https://github.com/FlagshipWP/compass.git"
   },
   "devDependencies": {
-    "flagship-wp-theme-config": "FlagshipWP/flagship-wp-theme-config#0.2.0",
+    "flagship-wp-theme-config": "FlagshipWP/flagship-wp-theme-config#0.2.2",
     "load-flagship-grunt-config": "FlagshipWP/load-flagship-grunt-config#0.1.1"
   }
 }
