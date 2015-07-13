@@ -33,7 +33,7 @@ module.exports = function() {
 			'newer:usebanner',
 			'newer:postcss',
 			'newer:wpcss',
-			'newer:cssjanus',
+			'newer:rtlcss',
 			'newer:cssmin',
 			'newer:replace:style',
 			'newer:copy:css'
