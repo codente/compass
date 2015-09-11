@@ -31,7 +31,7 @@
 	position: relative;
 
 	input[type=search] {
-		@include appearance(none);
+		appearance: none;
 		font-size: $base-font-size;
 		padding: 10px;
 		margin: 0;
@@ -39,7 +39,10 @@
 	}
 
 	button[type=submit] {
-		@include position(absolute, 0 0 0 null);
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		right: 0;
 		border: 1px solid $base-button-background-color;
 		border-top-left-radius: 0;
 		border-bottom-left-radius: 0;
@@ -90,7 +93,7 @@
 	.menu-mobile {
 		top: 46px;
 
-		@media screen and (min-width: 782px) { // Thanks WordPress.
+		@include media(782px) { // Thanks WordPress.
 			top: 32px;
 		}
 	}
